@@ -4,7 +4,12 @@ def get_book_text(filepath):
     with open(filepath) as f:
         file_contents = f.read()
 
-    print(file_contents)
+    return file_contents
 
+def find_total_words(book_text):
+    return len(book_text.split()) 
 
-get_book_text("books/frankenstein.txt")
+book_text = get_book_text("books/frankenstein.txt")
+
+print(f" Found {find_total_words(book_text)
+} total words" )
