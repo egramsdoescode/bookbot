@@ -22,6 +22,8 @@ python3 main.py <path_to_file>.txt
 ```
 
 ## Example output:
+
+```text
 ============ BOOKBOT ============
 Analyzing book count at books/frankenstein.txt...
 ----------- Word Count ----------
@@ -59,3 +61,4 @@ z: 235
 ë: 2
 ô: 1
 ============= END ===============
+```
